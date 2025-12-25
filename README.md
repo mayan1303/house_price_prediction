@@ -1,40 +1,86 @@
-# House Price Prediction using Linear Regression
+# House Price Prediction using Multiple Regression Algorithms
 
-This project builds a house price prediction model using Linear Regression in Python.  
-The goal is to understand the complete machine learning workflow starting from data preprocessing to model evaluation.
+This project focuses on predicting house prices using multiple regression algorithms in Python.
+It is designed as a learning oriented, end to end machine learning project where different regression techniques are implemented, evaluated, and compared as the learning progresses.
+
+The repository will be continuously updated as more machine learning algorithms are learned and applied.
+
+---
 
 ## Dataset
-California Housing Dataset from scikit learn is used in this project.  
-It contains information related to housing features and their corresponding median house prices.
+
+The California Housing Dataset from scikit learn is used in this project.
+It contains information related to housing features such as location, population, income levels, and their corresponding median house prices.
+
+---
 
 ## Project Workflow
-1. Data loading and exploration
+
+1. Data loading and initial exploration
 2. Train test split
 3. Feature scaling using StandardScaler
-4. Model training using Linear Regression
+4. Model training using different regression algorithms
 5. Cross validation for performance evaluation
-6. Model evaluation using Mean Squared Error and R2 score
+6. Model evaluation using Mean Squared Error and R2 Score
 7. Residual analysis using data visualization
+8. Comparison of model performance
 
-## Technologies Used
-Python  
-NumPy  
-Pandas  
-Scikit learn  
-Matplotlib  
-Seaborn  
+---
+
+## Models Implemented
+
+The following regression models are implemented or planned in this project:
+
+- Linear Regression
+- Ridge Regression
+- Lasso Regression (upcoming)
+- ElasticNet Regression (upcoming)
+
+Each model is implemented in a separate Jupyter Notebook for clarity and comparison.
+
+---
 
 ## Model Evaluation
-Mean Squared Error was calculated using cross validation.  
-R2 Score on test data is approximately 0.59 which indicates a reasonable model fit.
+
+Model performance is evaluated using:
+- Mean Squared Error
+- R2 Score
+
+These metrics are used to compare how different regression algorithms perform on the same dataset and how regularization impacts the model.
+
+---
 
 ## Visualization
-Residual distribution plot is used to analyze the assumptions of Linear Regression and model performance.
 
-## Conclusion
-The model successfully captures the relationship between housing features and prices.  
-Further improvements can be made using advanced regression techniques and feature engineering.
+Residual distribution plots and other visualizations are used to:
+- Analyze model assumptions
+- Understand error distribution
+- Evaluate overall model performance
+
+---
+
+## Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Scikit learn
+- Matplotlib
+- Seaborn
+
+---
+
+## Future Scope
+
+- Add advanced regression algorithms
+- Perform hyperparameter tuning
+- Feature engineering for better performance
+- Compare multiple models side by side
+- Extend the project towards more advanced machine learning techniques
+
+---
 
 ## Author
+
 Mayan Jindal
 
